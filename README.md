@@ -19,7 +19,7 @@ checks:
   mysql_up:
     execute_from: target
     type: plugin
-    plugin: network/tcp_connect.py
+    plugin: tcp_connect.py
     args: --host=localhost --port 3306
 ```
 
